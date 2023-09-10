@@ -1,0 +1,16 @@
+.each {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(77, 72, 72);
+}
+
+.pic img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.description {
+  display: flex;
+  gap: 1rem;
+}

@@ -1,0 +1,10 @@
+.shop {
+  padding-top: 20px;
+}
+
+.item {
+  display: grid;
+  grid-template: repeat(2, minmax(auto, 25rem)) / repeat(4, auto);
+  grid-gap: 30px 20px;
+  width: 100%;
+}

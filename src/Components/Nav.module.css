@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 300;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+}
+
+.nav a:global(.active) {
+  border-bottom: 3px solid yellow;
+}

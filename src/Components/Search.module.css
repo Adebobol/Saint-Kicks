@@ -1,0 +1,18 @@
+.search {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search p {
+  font-size: 0.7rem;
+}
+
+
+.search input {
+  width: 15rem;
+  border: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 0.2rem;
+  outline: none;
+}
